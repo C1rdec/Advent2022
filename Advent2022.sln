@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent2022.Core", "src\Adve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent2022.Day2", "src\Advent2022.Day2\Advent2022.Day2.csproj", "{08527AAF-0601-4618-A6AA-4D0DEC1A6248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent2022.Day3", "Advent2022.Day3\Advent2022.Day3.csproj", "{D9E9228B-CE49-4E8F-BD26-6563132B93F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent2022.Day3", "src\Advent2022.Day3\Advent2022.Day3.csproj", "{D9E9228B-CE49-4E8F-BD26-6563132B93F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
