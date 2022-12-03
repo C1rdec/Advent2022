@@ -10,3 +10,4 @@ Console.WriteLine($"\t<2> Puzzle response: {new Day1.Puzzle2().Solve()}");
 
 Console.WriteLine("*** Day2 ***");
 Console.WriteLine($"\t<1> Puzzle response: {new Day2.Puzzle1().Solve()}");
+Console.WriteLine($"\t<2> Puzzle response: {new Day2.Puzzle2().Solve()}");
