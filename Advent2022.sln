@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent2022.Console", "src\Advent2022.Console\Advent2022.Console.csproj", "{F1B24823-5811-47FC-8C59-BB2A682D6D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent2022.Console", "src\Advent2022.Console\Advent2022.Console.csproj", "{F1B24823-5811-47FC-8C59-BB2A682D6D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent2022.Day1", "src\Advent2022.Day1\Advent2022.Day1.csproj", "{1B69992E-97C3-4B31-B608-895D2B0C3178}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent2022.Day1", "src\Advent2022.Day1\Advent2022.Day1.csproj", "{1B69992E-97C3-4B31-B608-895D2B0C3178}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Advent2022.Core", "Advent2022.Core\Advent2022.Core.csproj", "{F9713794-971F-4D38-A73B-C981BFF1781B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advent2022.Day2", "Advent2022.Day2\Advent2022.Day2.csproj", "{08527AAF-0601-4618-A6AA-4D0DEC1A6248}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{1B69992E-97C3-4B31-B608-895D2B0C3178}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B69992E-97C3-4B31-B608-895D2B0C3178}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B69992E-97C3-4B31-B608-895D2B0C3178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9713794-971F-4D38-A73B-C981BFF1781B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9713794-971F-4D38-A73B-C981BFF1781B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9713794-971F-4D38-A73B-C981BFF1781B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9713794-971F-4D38-A73B-C981BFF1781B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08527AAF-0601-4618-A6AA-4D0DEC1A6248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08527AAF-0601-4618-A6AA-4D0DEC1A6248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08527AAF-0601-4618-A6AA-4D0DEC1A6248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08527AAF-0601-4618-A6AA-4D0DEC1A6248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

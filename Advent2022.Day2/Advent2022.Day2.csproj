@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Input\Input.txt" />
+    <None Remove="Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -15,11 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Advent2022.Core\Advent2022.Core.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Resource Include="Input\Input.txt" />
+    <ProjectReference Include="..\Advent2022.Core\Advent2022.Core.csproj" />
   </ItemGroup>
 
 </Project>
