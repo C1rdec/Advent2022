@@ -7,10 +7,10 @@ public class Puzzle2 : PuzzleBase
 {
     protected override string Solve(string input)
     {
-        var lines = input.Split(Environment.NewLine);
-
         var sum = 0;
         var skip = 0;
+        var lines = input.Split(Environment.NewLine);
+
         do
         {
             var sacks = lines.Skip(skip).Take(3).Select(l => new Rubsack(l));
