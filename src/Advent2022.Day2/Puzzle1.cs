@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using Advent2022.Core;
+using Advent2022.Day2.Models;
 
 namespace Advent2022.Day2
 {

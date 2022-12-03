@@ -1,4 +1,4 @@
-﻿namespace Advent2022.Day2
+﻿namespace Advent2022.Day2.Models
 {
     public enum MatchResult
     {
