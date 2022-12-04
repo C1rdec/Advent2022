@@ -7,9 +7,9 @@ public class Puzzle1 : PuzzleBase
 {
     protected override string Solve(string input)
     {
+        var sum = 0;
         var lines = input.Split(System.Environment.NewLine);
 
-        var sum = 0;
         foreach (var line in lines)
         {
             sum += new Rubsack(line).GetItemPriorities();

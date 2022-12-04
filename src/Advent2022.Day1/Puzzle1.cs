@@ -9,6 +9,7 @@ public class Puzzle1 : PuzzleBase
         var lines = input.Split(System.Environment.NewLine);
         var maxCalories = 0;
         var currentCalories = 0;
+
         foreach (var line in lines)
         {
             if (string.IsNullOrEmpty(line))

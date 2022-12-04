@@ -1,11 +1,10 @@
-﻿namespace Advent2022.Day2.Models
+﻿namespace Advent2022.Day2.Models;
+
+public enum MatchResult
 {
-    public enum MatchResult
-    {
-        Lose = 'X',
+    Lose = 'X',
 
-        Draw = 'Y',
+    Draw = 'Y',
 
-        Win = 'Z',
-    }
+    Win = 'Z',
 }

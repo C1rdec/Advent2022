@@ -1,11 +1,10 @@
-﻿namespace Advent2022.Day2.Models
+﻿namespace Advent2022.Day2.Models;
+
+public enum Player2Choice
 {
-    public enum Player2Choice
-    {
-        Rock = 'X',
+    Rock = 'X',
 
-        Paper = 'Y',
+    Paper = 'Y',
 
-        Scisor = 'Z',
-    }
+    Scisor = 'Z',
 }

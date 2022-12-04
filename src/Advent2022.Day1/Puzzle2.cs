@@ -10,8 +10,8 @@ namespace Advent2022.Day1
         {
             var values = new List<int>();
             var lines = input.Split(System.Environment.NewLine);
-
             var currentCalories = 0;
+
             foreach (var line in lines)
             {
                 if (string.IsNullOrEmpty(line))

@@ -2,16 +2,12 @@
 
 internal class Rubsack
 {
-    #region Fields
-
     public static readonly int LowerIndex = 96;
     public static readonly int UpperIndex = 38;
     private string _value;
     private Compartement _firstCompartement;
     private Compartement _secondCompartement;
     private int _length;
-
-    #endregion
 
     public Rubsack(string value)
     {

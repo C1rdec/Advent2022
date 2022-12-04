@@ -1,6 +1,6 @@
-﻿using Advent2022.Core;
-namespace Advent2022.Day4;
+﻿namespace Advent2022.Day4;
 
+using Advent2022.Core;
 using Advent2022.Day4.Models;
 
 public class Puzzle2 : PuzzleBase
