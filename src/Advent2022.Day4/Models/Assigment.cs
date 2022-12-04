@@ -14,7 +14,6 @@
             _min = int.Parse(stringValues[0]);
             _max = int.Parse(stringValues[1]);
 
-
             _values = Enumerable.Range(_min, _max - _min + 1);
         }
 
