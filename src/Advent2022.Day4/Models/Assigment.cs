@@ -15,14 +15,7 @@
             _max = int.Parse(stringValues[1]);
 
 
-            if (_min == _max)
-            {
-                _values = new List<int>() { _min };
-            }
-            else 
-            {
-                _values = Enumerable.Range(_min, _max - _min + 1);
-            }
+            _values = Enumerable.Range(_min, _max - _min + 1);
         }
 
         public int Count => _values.Count();
