@@ -1,6 +1,7 @@
 ﻿namespace Advent2022.Day2;
 
 using System;
+using System.Numerics;
 using Advent2022.Core;
 using Advent2022.Day2.Models;
 
@@ -48,34 +49,23 @@ public class Puzzle2 : PuzzleBase
             return Enum.Parse<Player2Choice>(player1Value);
         }
 
-        switch (matchResult)
+        return matchResult switch
         {
-            case MatchResult.Win:
-                switch (player1)
-                {
-                    case Player1Choice.Rock:
-                        return Player2Choice.Paper;
-                    case Player1Choice.Paper:
-                        return Player2Choice.Scisor;
-                    case Player1Choice.Scisor:
-                        return Player2Choice.Rock;
-                }
-
-                break;
-            case MatchResult.Lose:
-                switch (player1)
-                {
-                    case Player1Choice.Rock:
-                        return Player2Choice.Scisor;
-                    case Player1Choice.Paper:
-                        return Player2Choice.Rock;
-                    case Player1Choice.Scisor:
-                        return Player2Choice.Paper;
-                }
-
-                break;
-        }
-
-        throw new InvalidOperationException("Not a valid Match result");
+            MatchResult.Win => player1 switch
+            {
+                Player1Choice.Rock => Player2Choice.Paper,
+                Player1Choice.Paper => Player2Choice.Scisor,
+                Player1Choice.Scisor => Player2Choice.Rock,
+                _ => throw new NotImplementedException(),
+            },
+            MatchResult.Lose => player1 switch
+            {
+                Player1Choice.Rock => Player2Choice.Scisor,
+                Player1Choice.Paper => Player2Choice.Rock,
+                Player1Choice.Scisor => Player2Choice.Paper,
+                _ => throw new NotImplementedException(),
+            },
+            _ => throw new NotImplementedException(),
+        };
     }
 }
