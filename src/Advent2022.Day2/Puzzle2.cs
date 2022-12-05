@@ -1,7 +1,6 @@
 ﻿namespace Advent2022.Day2;
 
 using System;
-using System.Numerics;
 using Advent2022.Core;
 using Advent2022.Day2.Models;
 
