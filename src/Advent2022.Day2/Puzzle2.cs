@@ -20,7 +20,7 @@ public class Puzzle2 : PuzzleBase
 
             var player2 = GetPlayer2Choice(player1, matchResult);
 
-            var victoryPoints = matchResult switch
+            points += matchResult switch
             {
                 MatchResult.Win => 6,
                 MatchResult.Lose => 0,
@@ -28,20 +28,13 @@ public class Puzzle2 : PuzzleBase
                 _ => throw new NotImplementedException(),
             };
 
-            points += victoryPoints;
-
-            switch (player2)
+            points += player2 switch
             {
-                case Player2Choice.Rock:
-                    points += 1;
-                    break;
-                case Player2Choice.Paper:
-                    points += 2;
-                    break;
-                case Player2Choice.Scisor:
-                    points += 3;
-                    break;
-            }
+                Player2Choice.Rock => 1,
+                Player2Choice.Paper => 2,
+                Player2Choice.Scisor => 3,
+                _ => throw new NotImplementedException(),
+            };
         }
 
         return points.ToString();
