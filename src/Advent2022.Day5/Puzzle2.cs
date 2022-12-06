@@ -3,7 +3,7 @@
 using Advent2022.Core;
 using Advent2022.Day5.Models;
 
-public class Puzzle1 : PuzzleBase
+public class Puzzle2 : PuzzleBase
 {
     protected override string Solve(string input)
     {
@@ -11,9 +11,9 @@ public class Puzzle1 : PuzzleBase
         var cargo = new Cargo(values[0]);
 
         var moveValues = values[1].Split(System.Environment.NewLine);
-        foreach(var moveValue in moveValues)
+        foreach (var moveValue in moveValues)
         {
-            cargo.MoveCrates(new Move(moveValue));
+            cargo.MoveMultipleCrates(new Move(moveValue));
         }
 
         return cargo.Print();

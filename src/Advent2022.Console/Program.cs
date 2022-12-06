@@ -24,3 +24,4 @@ Console.WriteLine($"\t<2> Puzzle response: {new Day4.Puzzle2().Solve()}");
 
 Console.WriteLine("*** Day5 ***");
 Console.WriteLine($"\t<1> Puzzle response: {new Day5.Puzzle1().Solve()}");
+Console.WriteLine($"\t<2> Puzzle response: {new Day5.Puzzle2().Solve()}");
