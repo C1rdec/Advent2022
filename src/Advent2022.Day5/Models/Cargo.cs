@@ -23,7 +23,7 @@ internal class Cargo
 			new CrateStack(),
         };
 
-		var lines = value.Split(System.Environment.NewLine).Reverse();
+		var lines = value.Split(Environment.NewLine).Reverse();
 
 		// Skip crate number
 		foreach (var line in lines.Skip(1))
