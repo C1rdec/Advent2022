@@ -15,7 +15,7 @@ internal class CrateStack
     {
         foreach (var crate in crates)
         {
-            _crates.Push(crate);
+            Add(crate);
         }
     }
 
